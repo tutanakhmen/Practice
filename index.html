@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 1 - HTML</title>
+  </head>
+  <body>
+    <h1>Session 1 - HTML</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      <b>Voluptate</b> corporis <strong>voluptatibus a qui</strong> odit aperiam
+      quas tempore atque maiores temporibus sit tenetur magni aut, officia,
+      porro repudiandae. Non, rem est?
+    </p>
+
+    <!-- anchor tag -->
+    <a href="https://www.google.com" target="blank">Visit Google</a>
+
+    <!-- span tag -->
+    <span>testing span</span>
+
+    <!-- empty element -->
+    <img
+      src="https://cdn.shopify.com/s/files/1/0604/8235/5283/files/Velina-pc-wallpaper.jpg?v=1780399759"
+      alt=""
+    />
+
+    <!-- contoh tag pre -->
+    <pre>
+ini cerita nya nulis pake prefermatif.         
+        yah pasti ada enter nya ini 
+     </pre
+    >
+
+    <a href="pages/about.html">pindah ke about us</a>
+
+    <!-- ul dan li -->
+    <ul style="list-style-type: square">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ul>
+
+    <!-- ol dan li -->
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ol>
+
+    <!-- form -->
+     <!-- perbedaan method get dan post di html tag form -->
+      <!-- get itu nanti tampil di query params, jadi nanti tampil pake "?" -->
+       <!-- klo methode post, langsugn di kirim ke server.  -->
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">password</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="message">Message</label>
+      <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
+      <br>
+      <label for="country">country</label>
+      <select name="country" id="country">
+        <option value="">Select yoyur country</option>
+        <option value="US">US</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">United Kingdom</option>
+      </select>
+      <br>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
